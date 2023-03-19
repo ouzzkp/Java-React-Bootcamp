@@ -1,1 +1,1 @@
-# Java-React-Bootcamp
+# Java-React-Bootcamp | Self-Education
