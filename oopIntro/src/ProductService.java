@@ -2,6 +2,6 @@
 
 public class ProductService {
     public void addToCart(Product product) {
-        System.out.println("Sepete ekleme kodu çağırıldı ve " + product.name + " sepete eklendi!");
+        System.out.println("Sepete ekleme kodu çağırıldı ve " + product.getName() + " sepete eklendi!");
     }
 }
