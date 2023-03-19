@@ -14,11 +14,14 @@ public class Main {
          * These are not beneficial examples
          */
 
-        Product product1 = new Product(); // create a instance, referance
-        product1.id = 1;
-        product1.name = "Lenovo V14";
-        product1.unitPrice = 15000;
-        product1.detail = "16 GB Ram";
+        /*
+         * Product product1 = new Product(); // create a instance, referance
+         * product1.id = 1;
+         * product1.name = "Lenovo V14";
+         * product1.unitPrice = 15000;
+         * product1.detail = "16 GB Ram";
+         */
+        Product product1 = new Product(1, "Lenovo V14", 15000, "16 GB Ram");
 
         Product product2 = new Product(2, "Lenovo V15", 15000, "16 GB Ram"); // create a instance, referance
 
@@ -42,6 +45,9 @@ public class Main {
         Category category2 = new Category();
         category2.id = 2;
         category2.name = "Ev/Bahçe";
+
+        ProductService productService = new ProductService();
+        productService.addToCart(product1);
 
     }
 }
