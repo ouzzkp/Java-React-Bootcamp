@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+C:\Java-React-Bootcamp\.metadata\.plugins\org.eclipse.jdt.core
+2052462106.index
+858178207.index
+278804527.index
+3613946902.index
+3861426388.index
