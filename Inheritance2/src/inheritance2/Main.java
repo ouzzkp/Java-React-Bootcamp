@@ -7,6 +7,6 @@ public class Main {
         CustomerService customerService = new CustomerService();
         customerService.addGoodExample(new DatabaseLogger());
         customerService.addGoodExample(new EmailLogger());
-
+        System.out.println("Testing");
     }
 }
