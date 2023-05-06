@@ -20,7 +20,7 @@ public class ProductManager implements ProductService{
 	@Override
 	public void add(Product product) {
 		if(product.getCategoryId()==1) {
-			System.out.println("Bu kategoride ürün kabul edilmiyor.");
+			System.out.println("ID'si 1. Bu kategoride ürün kabul edilmiyor.");
 			return;
 		}
 		this.productDao.add(product);
