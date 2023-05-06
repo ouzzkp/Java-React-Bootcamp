@@ -24,7 +24,11 @@ public class ProductManager implements ProductService{
 			return;
 		}
 		this.productDao.add(product);
+<<<<<<< HEAD
 		this.loggerService.logToSystem("logger-test");
+=======
+		this.loggerService.logToSystem("log-test");
+>>>>>>> main
 	}
 
 	@Override
